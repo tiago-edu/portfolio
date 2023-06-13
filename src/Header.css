@@ -1,0 +1,29 @@
+.button-img{
+  width: 33px;
+  height: 33px;
+  transition: transform .2s;
+}
+
+.button-img:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 88px;
+  /* margin: 2rem 2.7rem 0px 0px; */
+  padding: 2rem;
+}
+
+
+@media (max-width: 1024px) {
+  .header{
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
+}
