@@ -1,5 +1,5 @@
 import React from "react";
-import linkFoto from "./assets/linkedin.png";
+import linkFoto from "./assets/Linkedin.png";
 import gitFoto from "./assets/github 2.svg";
 import instFoto from "./assets/instagram 3.svg";
 import "./Header.css"
