@@ -5,19 +5,49 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    
   </head>
   <body>
     <div id="root"></div>
     <div class="ball-blur"></div>
     <div class="ball-blur2"></div>
     <script type="module" src="/src/main.jsx"></script>
-
+    <script src="Carrousel.js" defer></script>
     <section id="sec-2">
+      <div class="items">
+        <div class="item active">
+          <img src="http://via.placeholder.com/500x500" />
+        </div>
+        
+
+        <div class="item next">
+          <img src="http://via.placeholder.com/500x500" />
+        </div>
+        <div class="item">
+          <img src="http://via.placeholder.com/500x500" />
+        </div>
+        <div class="item">
+          <img src="http://via.placeholder.com/500x500" />
+        </div>
+        <div class="item prev">
+          <img src="http://via.placeholder.com/500x500" />
+          
+        </div>
+        <div class="button-container">
+          <div class="button">
+            <i class="arrow left"></i>
+          
+          </div>
+          <div class="button">
+            <i class="arrow right"></i>
+          
+          </div>
+        </div>
+      </div>
       <a href="#sec-2">
-          <div class="scroll-down"></div>
-        
-        
+        <div class="scroll-down"></div>
       </a>
     </section>
   </body>
 </html>
+
