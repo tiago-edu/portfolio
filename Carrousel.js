@@ -46,9 +46,9 @@ const gotoNum = (number) => {
 
 // Adicione o código adicional para criar a descrição dos itens ativos
 slides.forEach((slide, index) => {
-  const description = document.createElement("p");
-  description.innerHTML = "Obesin"; // Substitua com a descrição correta
+  const Containerdescription = document.createElement("div");
+  Containerdescription.innerHTML = "Obesin\nNascido em 1999 o cara mais gordo da face da terra kkkk obeso"; // Substitua com a descrição correta
   if (index === current) {
-    slide.appendChild(description);
+    slide.appendChild(Containerdescription);
   }
 });
