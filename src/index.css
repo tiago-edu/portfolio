@@ -1,0 +1,154 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #060209;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ball-blur,
+.ball-blur2 {
+  position: absolute;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #a600c4 0deg,
+    #a600c4 120.07deg,
+    #a600c4 179.52deg,
+    #a600c4 241.65deg,
+    #a600c4 299.6deg,
+    #a600c4 360deg
+  );
+  border-radius: 50%;
+  font-size: 250px;
+  height: 1em;
+  width: 1em;
+  z-index: -1;
+}
+
+.ball-blur {
+  filter: blur(210px);
+  bottom: 1rem;
+}
+
+.ball-blur2 {
+  right: 4rem;
+  top: 5rem;
+  filter: blur(180px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  border: 2px solid white;
+  position: absolute;
+  left: 48%;
+  bottom: 70px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid white;
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+}
+
+@keyframes scroll-down {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .scroll-down{
+    display: none;
+    
+  }
+  
+  
+}
+
+@media (min-width: 1024px) {
+  
+  .scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid white;
+    position: absolute;
+    left: 48.5%;
+    bottom: 70px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  
+}
+@media (min-width: 1440px) {
+  
+  .scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid white;
+    position: absolute;
+    left: 49%;
+    bottom: 70px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  
+}
+
+@media (min-width: 2560px) {
+  
+  .scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid white;
+    position: absolute;
+    left: 49.5%;
+    bottom: 70px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  
+}
