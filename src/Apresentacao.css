@@ -7,13 +7,14 @@
   display: flex;
   justify-content: space-around;
   padding: 64px 32px;
+  margin-bottom: 5rem;
 
 }
 .facePhoto {
   width: 500px;
 }
 h1,
-p {
+.text {
   color: white;
 }
 
@@ -22,7 +23,7 @@ h1 {
   display: flex;
   
 }
-p {
+.text {
   font-size: 24px;
 }
 
@@ -30,23 +31,24 @@ p {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  text-justify: justify;
   justify-content: center;
   width: 50%;
+  align-items: center;
 }
 
 @media (max-width:1024px){
   h1,
-  p {
+  .text {
     color: white;
   }
-  p {
+  .text {
     font-size: 16px;
   }
   h1 {
     display: flex;
     font-size: 32px;
     justify-content: center;
+    margin-left: 0px;
   }
   .text-main {
     display: flex;

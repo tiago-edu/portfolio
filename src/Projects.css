@@ -1,0 +1,13 @@
+.project-p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  .project-p{
+    margin: 2rem;
+  }
+}

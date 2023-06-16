@@ -10,10 +10,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 
 
-const main = () => {
-  return (
-    <div className='ball-blur'></div>
-  )
-}
-
-export default main

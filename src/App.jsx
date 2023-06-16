@@ -1,14 +1,18 @@
 import "./App.css";
 import Apresentacao from "./Apresentacao";
-// import Carrousel from "./Carrousel";
+import Carousel from "./Carousel";
 import Header from "./Header";
+import Projects from "./projects";
 
 function App() {
+
   return (
     <>
       <Header />
       <Apresentacao />
-      {/* <Carrousel/> */}
+      <Projects/>
+      <Carousel/>
+      
     </>
   );
 }

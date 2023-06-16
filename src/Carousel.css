@@ -1,0 +1,110 @@
+/* Estilos gerais */
+.content-carousel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+img {
+  border-radius: 10px;
+}
+
+h4,
+p {
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+span {
+  color: white;
+  font-weight: bold;
+}
+
+.icons-project-cv {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.text-icon-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+/* Estilo Arrow */
+.splide__arrow{
+  top: 29% !important
+}
+
+/* Estilos responsivos */
+@media (max-width: 580px) {
+  .content-carousel img {
+    width: 450px;
+  }
+
+  .splide {
+    width: 450px;
+    height: 500px;
+  }
+  
+}
+
+@media (max-width: 500px) {
+  .content-carousel img {
+    width: 385px;
+  }
+
+  .splide {
+    width: 385px;
+    height: 500px;
+  }
+
+  .splide__arrow {
+    display: none !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .content-carousel img {
+    width: 355px;
+  }
+
+  .splide {
+    width: 355px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 375px) {
+  .content-carousel img {
+    width: 320px;
+  }
+
+  .splide {
+    width: 320px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content-carousel img {
+    width: 280px;
+  }
+
+  .splide {
+    width: 280px;
+    height: 530px;
+  }
+}
+
+
+

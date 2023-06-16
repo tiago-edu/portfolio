@@ -8,7 +8,7 @@ const Apresentacao = () => {
       <div className="main">
         <div className="text-main">
           <h1>Front-End Developer.</h1>
-          <p>
+          <p className="text">
             Hi There, i'm Tiago Moreira. I am passionate about technology and
             creating amazing and intuitive user experiences. My goal is always
             to exceed user expectations by creating clean, elegant and efficient
