@@ -1,6 +1,6 @@
 import React from "react";
 import "./Apresentacao.css";
-import face2 from "./assets/face.png";
+import mainFace from "./assets/mainFace.png";
 
 const Apresentacao = () => {
   return (
@@ -15,7 +15,7 @@ const Apresentacao = () => {
             designs.
           </p>
         </div>
-        <img src={face2} className="facePhoto"alt="face" />
+        <img src={mainFace} className="facePhoto"alt="face" />
       </div>
     </>
   );
